@@ -24,6 +24,15 @@ const dashboard: AppRouteModule = {
       },
     },
     {
+      path: 'query',
+      name: 'Query',
+      component: () => import('/@/views/dashboard/query/index.vue'),
+      meta: {
+        // affix: true,
+        title: t('routes.dashboard.query'),
+      },
+    },
+    {
       path: 'workbench',
       name: 'Workbench',
       component: () => import('/@/views/dashboard/workbench/index.vue'),
