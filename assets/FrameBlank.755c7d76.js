@@ -1,0 +1,1 @@
+import{_ as e}from"./index.2e53714a.js";import{A as a,B as n,D as r}from"./vendor.97df4062.js";const o=a({name:"FrameBlank"});function t(s,c,m,p,d,f){return n(),r("div")}var l=e(o,[["render",t]]);export{l as default};
