@@ -3,4 +3,7 @@ export default {
   about: 'About',
   workbench: 'Workbench',
   analysis: 'Analysis',
+  qa: 'Questions',
+  qaDetail: 'QuesDetail',
+  query: 'Query'
 };

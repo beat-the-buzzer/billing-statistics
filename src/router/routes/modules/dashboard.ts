@@ -40,6 +40,23 @@ const dashboard: AppRouteModule = {
         title: t('routes.dashboard.workbench'),
       },
     },
+    {
+      path: 'qa',
+      name: 'qa',
+      component: () => import('/@/views/dashboard/qa/index.vue'),
+      meta: {
+        title: t('routes.dashboard.qa'),
+      },
+    },
+    {
+      path: 'qa-detail',
+      name: 'qa-detail',
+      component: () => import('/@/views/dashboard/qa/detail.vue'),
+      meta: {
+        hideMenu: true,
+        title: t('routes.dashboard.qaDetail'),
+      },
+    },
   ],
 };
 
