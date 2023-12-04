@@ -62,6 +62,30 @@ export const questionInfoItems: QuestionInfoItem[] = [
       type: 'P',
       text: '情况四，消费者收到货物之后的退款申请。如果没有质量问题，要求消费者连包装盒一起将货物寄回仓库，一般开启了运费险，消费者只需预约取件，然后在平台上填入快递单号即可，然后平台退款、仓库退款；如果有质量问题，要反馈给仓库。'
     }]
+  },
+  {
+    id: '3',
+    avatar: 'dynamic-avatar-1|svg',
+    // name: '威廉',
+    date: '刚刚',
+    desc: `常见问题配置`,
+    link: '/dashboard/qa-detail?id=3',
+    detail: [{
+      type: 'P',
+      text: '常见问题可以给用户展示5个，可以将用户关心的问题预先提供准确的回答：'
+    }, {
+      type: 'P',
+      text: '1. 发什么快递？'
+    }, {
+      type: 'P',
+      text: '2. 面料材质是什么？'
+    }, {
+      type: 'P',
+      text: '3. 是正品吗？'
+    }, {
+      type: 'P',
+      text: '4. 尺码怎么选？'
+    }]
   }
 ];
 
